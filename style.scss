@@ -1,0 +1,27 @@
+$color-bg: #E3E2E0;
+$color-blending-fg: #c58a31;
+$color-primary: #2a4ca1;
+
+@import './reset.scss';
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue LT Std', Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+main {
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $color-bg;
+}
